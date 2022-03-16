@@ -1,9 +1,5 @@
 import React from 'react';
 import './App.css';
-
-import Score1 from'./components/Score1.jsx'
-import Score2 from './components/Score2.jsx';
-
 import Router from './router/Router.jsx';
 import { Link } from 'react-router-dom';
 
