@@ -7,6 +7,7 @@ body{
   background-size: cover; 
   z-index: -1;
   
+  
 }
 
 img{
@@ -106,6 +107,7 @@ img{
  #other {
   display: flex;
   flex-direction: column;
+  margin-right:0px;
  }
 
  #table {
