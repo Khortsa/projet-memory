@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Score.css'
 
 class Score extends React.Component {
   constructor(props) {
@@ -11,13 +11,13 @@ class Score extends React.Component {
 
   render() {
     return (
-      <div className='end'>
+      
         <div className='scoreCard'>
           <h1>Score</h1>
-          <h3>Player 1: <b>{this.props.score1}</b></h3>
+          <h3>Player 1: <b>{this.props.score}</b></h3>
           <h4>Turn: {this.props.turn}</h4>
         </div>
-      </div>
+   
     );
   }
 }

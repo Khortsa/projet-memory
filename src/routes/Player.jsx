@@ -1,6 +1,7 @@
 import React from 'react'
 import Game from '../components/Game'
 
+
 class Player extends React.Component{
     constructor() {
       super();
@@ -9,10 +10,10 @@ class Player extends React.Component{
     render() {
       return (
         <div>
-       <Game />
+          <Game />
        </div>
       );
     }
   }
   
-  export default Player;
+export default Player;
